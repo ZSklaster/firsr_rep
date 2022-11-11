@@ -1,6 +1,6 @@
 def age_valid(i):
     while True:
-        age = input(f'Введите возраст посетителя для {i}го бтлета -')
+        age = input(f'Введите возраст посетителя для {i}го билета -')
         if age.isdigit() == True and 0 < int(age) <= 100:
             break
         else:
