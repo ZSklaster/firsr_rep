@@ -49,7 +49,7 @@ array = quicksort(array)
 while True:
     num = input('Введите число: ').strip()
     if num.lstrip('-').isdigit() == False:
-        print('Вод не соответствует условию')
+        print('Ввод не соответствует условию')
         continue
     num = int(num)
     break
